@@ -17,7 +17,7 @@ const formSchema = new SimpleSchema({
 
 const bridge = new SimpleSchema2Bridge(formSchema);
 
-/* Renders the AddStuff page for adding a document. */
+/* Renders the AddNote page for adding a document. */
 const AddNote = ({ owner, contactId }) => {
 
   // On submit, insert the data.
